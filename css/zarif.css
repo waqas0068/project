@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.zaki{
+width: 200px;
+height: 200px;
+background-color: brown;
+clip-path: circle(40%);
+margin-left: 94%;
+margin-top: 0%;
+
+}
+.mirani{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    clip-path: circle(40%);
+    position: relative;
+    left: 90%;
+    top: -30%;
+
+}
+.waqas{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(132, 129, 135);
+    clip-path: circle(60%);
+    position: relative;
+    
+}

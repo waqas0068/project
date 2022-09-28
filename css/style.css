@@ -1,0 +1,53 @@
+body{
+background-color: aqua;
+height: 100vh;
+overflow: hidden;
+
+}
+.zaki{
+background-color: brown;
+height: 200px;
+width: 200px;
+transform: scale(1.5);
+
+animation: zarifi 3s infinite  ease-in-out  ;
+
+}
+@keyframes zarifi {
+    0%{
+border-radius: 10%;
+background-color: blue;
+position: relative;
+left: 0px;
+    }
+    25%{
+        border-radius: 20%;
+        background-color: rgb(197, 197, 209); 
+        position: relative;
+        left: 80%;
+
+        
+    }
+    50%{
+        border-radius: 40%;
+        background-color: chartreuse;
+        position: relative;
+        left: 80%;
+        top: 40%;
+    }
+    75%{
+        border-radius: 60%;
+        background-color: lightslategray;
+        position: relative;
+        left: 0%;
+        top: 40%;
+    }
+    100%{
+        border-radius: 80%;
+        background-color: blueviolet;
+        position: relative;
+        left: 0%;
+        top: 0%;
+    }
+    
+}
